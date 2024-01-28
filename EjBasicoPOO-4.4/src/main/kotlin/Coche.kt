@@ -145,7 +145,9 @@ println(coches[0].toString())
  * Intenta instanciar y modificar con el color, el número de caballos, el número de puertas y la matrícula con valores nulos/blancos y comprueba que no es posible.
  **/
 
-
+/**
+ * Clase Coche que crea objetos coche con sus propiedades y restricciones.
+ */
 class Coche(
     var color: String,
     marca: String,
